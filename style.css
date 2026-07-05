@@ -1,0 +1,32 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+table {
+  background-color: lightgray;
+  color: black;
+  width: 50%;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 10px;
+  border: 1px solid black;
+  text-align: center;
+}
+th {
+  background-color: gray;
+  color: white;
+}
+tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+  border-right: 1px solid blue;
+}
+
+tr :hover {
+  background-color: #ddd;
+}
