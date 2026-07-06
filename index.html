@@ -16,9 +16,32 @@
           <th>Book Name</th>
           <th>Book Author</th>
           <th>Book pages</th>
+          <th>Has Read</th>
+          <th>Delete Book</th>
         </tr>
       </thead>
     </table>
+    <form id="myForm" style="display: none">
+      <fieldset>
+        <legend>Book Info</legend>
+        <div>
+          <label for="title">Book Title:</label><br />
+          <input type="text" id="title" name="title" />
+        </div>
+        <div>
+          <label for="author"> Author </label><br />
+          <input type="text" id="author" name="author" />
+        </div>
+        <div>
+          <label for="numberOfPages">Number of Pages</label><br />
+          <input type="number" id="numberOfPages" name="numberOfPages" />
+        </div>
+        <div>
+          <button type="submit" id="submit-btn">Submit</button>
+          <button id="clear-form">clear form</button>
+        </div>
+      </fieldset>
+    </form>
     <button id="add-book">Add Book</button>
   </body>
 </html>
